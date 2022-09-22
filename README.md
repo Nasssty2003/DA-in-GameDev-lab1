@@ -47,7 +47,7 @@
 3) Вывод сообщения Hello World на консоли в Unity
 ![Hello World Unity 2](https://user-images.githubusercontent.com/43472988/191839166-3e9af8dd-d859-4073-b9e0-5c146cbba847.jpeg)
 4) Код в Visual Studio для вывода Hello World на консол!
-[Uploading Hello World Unity.jpeg…]()
+![Hello World Unity](https://user-images.githubusercontent.com/43472988/191839673-b8995ad8-970c-44c7-8cfb-f5c52330cc5a.jpeg)
 
 ## Задание 2
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
