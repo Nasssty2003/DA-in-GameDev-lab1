@@ -44,6 +44,10 @@
 ![Hello Word 1](https://user-images.githubusercontent.com/43472988/191829157-8d5df061-35f6-479e-9631-080de2cc1bf1.jpeg)
 2) Запуск программы Hello World в google.collab
 ![Hello word 2](https://user-images.githubusercontent.com/43472988/191829709-5c744c2d-8916-4fea-81b5-09cbb5d2ae62.jpeg)
+3) Вывод сообщения Hello World на консоли в Unity
+![Hello World Unity 2](https://user-images.githubusercontent.com/43472988/191839166-3e9af8dd-d859-4073-b9e0-5c146cbba847.jpeg)
+4) Код в Visual Studio для вывода Hello World на консол!
+[Uploading Hello World Unity.jpeg…]()
 
 ## Задание 2
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
