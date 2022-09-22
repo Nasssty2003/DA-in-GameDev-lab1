@@ -41,9 +41,9 @@
 ### Написать программы Hello World на Python и Unity.
 Ход работы:
 1) Демонстрация сохранения документа google.collab на диск
-2) Запуск программы Hello World в google.collab
 ![Hello Word 1](https://user-images.githubusercontent.com/43472988/191829157-8d5df061-35f6-479e-9631-080de2cc1bf1.jpeg)
-```py
+2) Запуск программы Hello World в google.collab
+![Hello word 2](https://user-images.githubusercontent.com/43472988/191829709-5c744c2d-8916-4fea-81b5-09cbb5d2ae62.jpeg)
 
 In [ ]:
 #Import the required modules, numpy for calculation, and Matplotlib for drawing
@@ -57,6 +57,7 @@ x = [3,21,22,34,54,34,55,67,89,99]
 x = np.array(x)
 y = [2,22,24,65,79,82,55,130,150,199]
 y = np.array(y)
+
 
 #Show the effect of a scatter plot
 plt.scatter(x,y)
