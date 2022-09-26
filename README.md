@@ -76,12 +76,9 @@
 
 
     def iterate(a,b,x,y,times) :
-  
-    for i in range(times) :
-    
-    a,b=optimize(a,b,x,y)
-    
-    return a,b
+      for i in range(times) :
+      a,b=optimize(a,b,x,y)
+      return a,b
     
 def loss_function(a,b,x,y):
     num = len(x)
