@@ -80,27 +80,27 @@
       a,b=optimize(a,b,x,y)
       return a,b
     
-def loss_function(a,b,x,y):
-    num = len(x)
-    prediction = model(a,b,x)
-    return (0.5 / num) * (np.square(prediction-y)).sum()
+    def loss_function(a,b,x,y):
+      num = len(x)
+      prediction = model(a,b,x)
+      return (0.5 / num) * (np.square(prediction-y)).sum()
 
 Видно, что количество итераций функции iterate(times) влияет на переменные a и b, а те в свою очередь определяют результат переменной loss.
 Доказательство того, что от изменения количества итераций графики не изменялись, можно увидеть на скринах из второго задания к данным кускам кода:
 
-a, b = iterate(a, b, x, y, 2)
-prediction = model(a, b, x)
-loss = loss_function(a, b, x, y)
-print(a, b, loss)
-plt.scatter(x, y)
-plt.plot(x, prediction)
+    a, b = iterate(a, b, x, y, 2)
+    prediction = model(a, b, x)
+    loss = loss_function(a, b, x, y)
+    print(a, b, loss)
+    plt.scatter(x, y)
+    plt.plot(x, prediction)
 
-a, b = iterate(a, b, x, y, 10000)
-prediction = model(a, b, x)
-loss = loss_function(a, b, x, y)
-print(a, b, loss)
-plt.scatter(x, y)
-plt.plot(x, prediction)
+    a, b = iterate(a, b, x, y, 10000)
+    prediction = model(a, b, x)
+    loss = loss_function(a, b, x, y)
+    print(a, b, loss)
+    plt.scatter(x, y)
+    plt.plot(x, prediction)
 
 ### 2) Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
 
